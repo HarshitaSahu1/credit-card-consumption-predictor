@@ -216,7 +216,7 @@ else:
     ])
 
     with tab1:
-        final_dataset = pd.read_csv(r'C:\Users\Harshita Sahu\OneDrive\Documents\ML_1_CREDIT_CARD\11. Capstone Case Study - Predict Cred Card Consumption\final_dataset.csv')
+        final_dataset = pd.read_csv(r'final_dataset.csv')
         final_dataset.head()
 
         with st.expander("📄 View Sample Dataset"):
