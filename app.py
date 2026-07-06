@@ -174,7 +174,7 @@ if not st.session_state.logged_in:
 
 **Username:** admin
 
-**Password:** admin123
+**Password:** 123
 """)
 
 # ---------------- DASHBOARD ---------------- #
