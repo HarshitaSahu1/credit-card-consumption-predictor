@@ -144,7 +144,7 @@ if not st.session_state.logged_in:
     left, right = st.columns([1.5, 1])
 
     with left:
-        st.image(r"C:\Users\Harshita Sahu\OneDrive\Documents\ML_1_CREDIT_CARD\11. Capstone Case Study - Predict Cred Card Consumption\Credit Consumption_image.png", use_container_width=True)
+        st.image("Credit Consumption_image.png", use_container_width=True)
 
     with right:
 
