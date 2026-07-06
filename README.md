@@ -1,35 +1,73 @@
 # 💳 Credit Card Consumption Predictor
 
-An end-to-end Machine Learning project built with **Python** and **Streamlit** for predicting credit card consumption through interactive analytics and data visualization.
+An end-to-end **Machine Learning** project built with **Python** and **Streamlit** for predicting customer credit card consumption through interactive analytics and predictive modeling.
+
+---
+
+## 🌐 Live Application
+
+🚀 **Try the App Here:**  
+https://iph8aobmuhyyhyqdqrldcq.streamlit.app/
 
 ---
 
 ## 📌 Project Overview
 
-The **Credit Card Consumption Predictor** is an interactive web application that analyzes customer spending behavior and predicts future credit card consumption using a trained Machine Learning model.
+The **Credit Card Consumption Predictor** is an interactive web application designed to analyze customer financial behavior and predict future credit card consumption using a Machine Learning model.
 
-The project combines **data preprocessing, feature engineering, exploratory data analysis (EDA), business insights, and predictive analytics** into a single Streamlit dashboard.
+The application combines:
+
+- Data Preprocessing
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Business Insights
+- Machine Learning Prediction
+- Interactive Streamlit Dashboard
 
 ---
 
 ## 🚀 Features
 
-- 🔐 User Login Page
-- 📊 Interactive Dashboard
+- 🔐 User Login Interface
+- 📊 Interactive Business Dashboard
 - 💳 Credit Card Consumption Analysis
 - 💰 Debit Card Consumption Analysis
 - 👥 Customer Demographic Analysis
 - 📈 Investment Analysis
 - 💡 Business Insights for Every Visualization
 - 🤖 Credit Card Consumption Prediction
+- 📁 Upload Customer Dataset (CSV)
 - 📉 Actual vs Predicted Comparison
-- 📁 CSV File Upload for Predictions
+
+---
+
+## 🤖 Machine Learning Model
+
+### Model Information
+
+| Feature | Details |
+|---------|---------|
+| **Algorithm** | Bagging Regressor |
+| **Base Estimator** | Decision Tree Regressor |
+| **Target Variable** | Credit Card Consumption |
+| **Input** | Customer CSV File |
+| **Output** | Predicted Credit Card Consumption |
+
+### 📊 Model Performance
+
+| Metric | Score |
+|---------|-------:|
+| **Training R² Score** | **0.8253** |
+| **Training RMSE** | **2962.56** |
+
+> **Interpretation:**  
+> The Bagging Regressor explains approximately **82.5% of the variance** in customer credit card consumption on the training data, with an average prediction error (RMSE) of approximately **2963 consumption units**.
 
 ---
 
 ## 📂 Dataset
 
-The dashboard uses a processed dataset (`final_dataset.csv`) created by merging multiple customer-related datasets during the preprocessing stage.
+The application uses a processed dataset (`final_dataset.csv`) created by merging multiple customer-related datasets.
 
 The preprocessing pipeline included:
 
@@ -39,13 +77,13 @@ The preprocessing pipeline included:
 - Feature Engineering
 - Data Transformation
 
-The final processed dataset is then used for visualization and prediction.
+The final processed dataset is then used for both visualization and prediction.
 
 ---
 
 ## 📊 Dashboard Modules
 
-### 📈 Customer Spending Analysis
+### 💳 Customer Spending Analysis
 
 - Monthly Credit Card Consumption
 - Monthly Debit Card Consumption
@@ -59,17 +97,17 @@ The final processed dataset is then used for visualization and prediction.
 ### 💰 Investment Analysis
 
 - Investment Type Distribution
-- Customer Investment Categories
+- Investor Category Analysis
 
 ### 🤖 Prediction Module
 
-Users can upload a CSV file containing customer information to generate credit card consumption predictions using the trained Machine Learning model.
+Users can upload a CSV file containing customer information to generate predictions for future credit card consumption.
 
 The prediction module provides:
 
-- Predicted Credit Consumption
-- Actual vs Predicted Visualization
-- Downloadable Prediction Results
+- Predicted Credit Card Consumption
+- Actual vs Predicted Comparison
+- Interactive Visualizations
 
 ---
 
@@ -88,18 +126,16 @@ The prediction module provides:
 ## 📁 Project Structure
 
 ```text
-Credit-Card-Consumption-Predictor/
+credit-card-consumption-predictor/
 │
 ├── app.py
+├── train_model.py
 ├── final_dataset.csv
-├── model.pkl
+├── model_pipeline.pkl
 ├── Credit Consumption_image.png
 ├── requirements.txt
 ├── README.md
 └── assets/
-    ├── login.png
-    ├── dashboard.png
-    └── prediction.png
 ```
 
 ---
@@ -109,16 +145,16 @@ Credit-Card-Consumption-Predictor/
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/credit-card-consumption-predictor.git
+git clone https://github.com/your-github-username/credit-card-consumption-predictor.git
 ```
 
-Navigate to the project directory
+Navigate to the project folder
 
 ```bash
 cd credit-card-consumption-predictor
 ```
 
-Install the required dependencies
+Install the dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -132,49 +168,30 @@ streamlit run app.py
 
 ---
 
-## 📸 Application Preview
-
-### 🔐 Login Page
-
-> Add a screenshot here
-
----
-
-### 📊 Dashboard
-
-> Add a screenshot here
-
----
-
-### 🤖 Prediction Module
-
-> Add a screenshot here
-
----
 
 ## 💼 Business Value
 
-This project demonstrates how customer financial data can be transformed into meaningful business insights through interactive visualizations and predictive modeling.
+This project demonstrates how customer financial data can be transformed into meaningful business insights through interactive analytics and Machine Learning.
 
 Potential business applications include:
 
 - Customer Spending Analysis
 - Customer Segmentation
 - Financial Behavior Analysis
-- Personalized Marketing
 - Customer Consumption Forecasting
-- Data-Driven Decision Making
+- Personalized Marketing Strategies
+- Data-Driven Business Decisions
 
 ---
 
 ## 🔮 Future Enhancements
 
-- Secure User Authentication
-- Cloud Deployment
-- Real-Time Data Integration
-- Advanced Machine Learning Models
-- Interactive Report Export
-- Enhanced Dashboard Customization
+- Database Integration
+- User Authentication with Database
+- Cloud Database Support
+- Advanced Ensemble Models
+- Real-Time Prediction Pipeline
+- Downloadable Prediction Reports
 
 ---
 
@@ -182,6 +199,10 @@ Potential business applications include:
 
 **Harshita Sahu**
 
-Aspiring Data Analyst | Python | Machine Learning | Streamlit
+**Aspiring Data Analyst**
 
-If you found this project interesting, feel free to ⭐ the repository.
+**Skills:** Python • Machine Learning • Streamlit • Data Analysis • Data Visualization
+
+---
+
+⭐ **If you found this project helpful, please consider giving it a star!**
